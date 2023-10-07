@@ -1,0 +1,32 @@
+{
+  "name": "backend-bookshelf-api",
+  "version": "1.0.0",
+  "description": "Created for Dicoding Submission",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhilmirinaldi/backend-bookshelf-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhilmirinaldi/backend-bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/mhilmirinaldi/backend-bookshelf-api#readme",
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^3.3.6"
+  }
+}
